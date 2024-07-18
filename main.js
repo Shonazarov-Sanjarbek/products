@@ -8,7 +8,7 @@ console.log(wrapper);
 
 async function fetchProducts(api) {
     try {
-        loading.style.display = "block"
+        loading.style.display = "flex"
         let respnonse = await fetch(`${api}/products`)
         console.log(respnonse);
         respnonse
